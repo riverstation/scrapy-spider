@@ -1,0 +1,376 @@
+2018-07-20 15:47:09 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: fanjianproject)
+2018-07-20 15:47:09 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'fanjianproject', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'fanjianproject.spiders', 'SPIDER_MODULES': ['fanjianproject.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'}
+2018-07-20 15:47:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-07-20 15:47:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-07-20 15:47:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-07-20 15:47:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['fanjianproject.pipelines.FanjianprojectPipeline']
+2018-07-20 15:47:10 [scrapy.core.engine] INFO: Spider opened
+2018-07-20 15:47:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-07-20 15:47:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-07-20 15:47:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.fanjian.net/duanzi> (referer: None)
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '小时候吹过蒲公英的人注意了，蒲公英是会转世复仇的，它会化身为梳子、吹风机、洗发水等物品，在你经意或不经意间，带走你的头发。（@纯良大叔） '
+            '\u200b\u200b\u200b\u200b',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 360',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-07-19 11:32'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '阎罗殿内。“阎王大人你是不是搞错了？！我刚看了生死簿，明明还没排到我啊！”“嗯，你不是爱加塞吗。” \u200b',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 471',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-17 11:18'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '姜文的电影基本上不用去电影院看，脑补一下四平哈姆雷特就行。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 622',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-14 15:04'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '术后老人转入icu，意识无恢复，无自主呼吸。家属（女婿）要求尽量维持生命到7月1日凌晨4点半拔管放弃。全科震惊以为专门找人算过吉时…家属解释4点拔管老人差不多拖到6点落气，他们8点来办死亡10点刚好可以送殡仪馆，并且拖到7月份还可以多领一月的养老金。（@酸枪）',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 769',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-13 16:42'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '大概现在很多人不理解“机顶盒”为什么叫机顶盒。电视机顶上那么窄，怎么放东西？ '
+            '就像之前一个访问发现年轻人不知道为什么“保存”的图标是一个软盘的形状一样。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 646',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-12 15:38'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '阿根廷本届世界杯只输了两场比赛，分别输给了冠军和亚军',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 467',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-12 11:38'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '@银教授：女生总喜欢问男生“你爱我吗”，就像男生总喜欢问女生“舒服吗” '
+            '\u200b//@Monstercenter：然后得到的都是谎言',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 628',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-07 11:41'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '每次你看到荧屏中的烂演技，要知道那已经是导演见过最好的一条了。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 462',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-05 14:45'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '中午去剪头发，我推门进：老板帮我洗剪吹，打薄一下就可以。 老板：哎哟已经好久没听到这个词了，现在的人都没几个头发可以打薄  '
+            '那么严峻的吗！（@某瑜）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 745',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-07-04 17:01'}
+2018-07-20 15:47:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi>
+{'content': '@杰克波比：是不是娱乐圈要这样发展了？孟美岐：我是山支大哥；徐峥：我是山争大哥；柳岩：我是山石大哥；秦岚：我是山风大哥…… '
+            '\u200b //@一個神秘洧故倳啲男银：随后姜昆被封杀。。。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 547',
+ 'name': '一剑',
+ 'shijian': ' 2018-07-03 10:41'}
+2018-07-20 15:47:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.fanjian.net/duanzi-2> (referer: http://www.fanjian.net/duanzi)
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '真的搞不懂，信息泄露都这么严重的年代了，呀还总有人打电话问我买不买房，买不买股票啥的？我有多少钱你们是一点逼数都没有么？ '
+            '\u200b\u200b\u200b\u200b（@摸鱼事务所）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 724',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-28 13:50'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '我的性倾向应该是有钱人——eyes8ii3 \u200b',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 560',
+ 'name': '一剑',
+ 'shijian': ' 2018-06-26 16:25'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '足球比赛解说也挺容易的，不管比赛中如何胡说八道，如果比分打脸了，只要说一句就解决：这就是足球。 '
+            '（@大头和他的朋友们\u200b\u200b\u200b\u200b）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 489',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-19 13:44'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '虽然冰岛只有32万人口，但是这个国家在微信上还有1100万居民。 \u200b',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1030',
+ 'name': '一剑',
+ 'shijian': ' 2018-06-17 11:35'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '求求男孩子撩上衣的时候不要露出赤橙黄绿青蓝紫的内裤边边了，干啥啊，去救爷爷吗？ '
+            '\u200b\u200b\u200b\u200b（@废几把话）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1045',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-12 12:04'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '现代诗一首《心动的感觉》：糟糕/不可能/不可以/算了。（@纳兰无羁）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 598',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-12 11:52'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '中国演艺界，或是最信鬼神之说的一个圈子。很多剧组，不管拍电影还是电视都会搞个开机仪式，焚香拜佛祈个福什么的。久而久之，这种风气甚至影响到歌坛。比如近期在内地频开演唱会的张学友，每次都要送个人进监狱祭天。 '
+            '（@纳兰无羁）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 688',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-12 11:50'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '公司让我开无犯罪证明，我掏出了张学友演唱会的票根。（ @这梦真TM噩）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 748',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-12 11:48'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '搞个90后男生养成类节目，找101个90后男生，看他们在三个月内谁的头发长得又密又长，节目的名字就叫“章光101”。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 690',
+ 'name': '一剑',
+ 'shijian': ' 2018-06-10 17:37'}
+2018-07-20 15:47:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-2>
+{'content': '一开始我不知道如何辩别西瓜熟不熟这个问题，后来经过我长期在水果摊前看别人敲西瓜，总结出一条经验：敲瓜要敲得时间长一点，这样老板就会坐不住亲手帮你挑一个熟的。（@纳兰无羁）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1115',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-06-01 16:50'}
+2018-07-20 15:47:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.fanjian.net/duanzi-3> (referer: http://www.fanjian.net/duanzi-2)
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '“谁家孩子像你这样？”  妈！！！我求求你去看看这大千世界！！！！（@皇上您这是喜脉啊）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 784',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-05-30 17:23'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '耳机和手机的发明可以说是社恐和肥宅的生命之光了',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 638',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-05-30 17:18'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '“能不能帮我取个日本名，类似松岛菜菜子之类的。”“鲁花花生油。” \u200b',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1904',
+ 'name': '一剑',
+ 'shijian': ' 2018-05-26 19:04'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '今天在星巴克看见一个男人，没拿手机、没带平板、也没摆笔记本。他就坐在那里喝咖啡。像个精神病。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1516',
+ 'name': '一剑',
+ 'shijian': ' 2018-05-26 17:42'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '刚刚看了一篇科普文《如果太空飞船的玻璃碎了……咋救？ 答案是：大喊一声，呼出肺部气体，这样可以多活大概20秒。',
+ 'face': 'http://ww4.sinaimg.cn/large/bf2d8b8dgw1f86r0synp4j206o06o0sw.jpg',
+ 'liulan': ' 912',
+ 'name': 'wqmh',
+ 'shijian': ' 2018-05-18 10:44'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '俺家钟点工对俺说：读书人就是比不读书的人聪明，不读书的人都是一根筋。我说不至于吧？钟点工说：咋不至于？你看我，不读书，一事无成，我就只懂得怨自己不读书。你就不一样了。我好奇：我是啥样呢？她说：你读书，你也一事无成，可是你就不怨自己，你说生不逢时怀才不遇，你怨社会怨生活怨天尤人…… '
+            '\u200b\u200b\u200b\u200b（@茨冈女神）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 754',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-05-17 09:50'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '我知道罗永浩的问题在哪里了，他身边那些所谓的好朋友，所谓支持者，整天就是，老罗你是天才，老罗你做的太棒了，老罗你一定行的。没有一个能站出来说，老罗你他妈的醒醒，你学学产品经理入门，理解一下啥叫需求，啥叫用户预期。估计有这么说的可能也都被老罗拉黑了。 '
+            '\u200b(@caoz)',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 851',
+ 'name': '一剑',
+ 'shijian': ' 2018-05-16 11:23'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '一日，李靖把哪咤叫到书房问到：你可知为父为何那么恨你？哪咤回道：孩儿愚钝不知。李靖一声叹息：唉…你娘怀你三年六个月，你知道为父是怎么过的么？哪咤再次摇头。李靖一时沉默后淡淡说了句：爹的左手都能托塔了…',
+ 'face': 'http://ww1.rs.fanjian.net/a/5f/09/39/fb5f9a56290916cad439b056b14a0e0c.jpg',
+ 'liulan': ' 963',
+ 'name': '风吹草低见流氓',
+ 'shijian': ' 2018-05-14 11:04'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '国产手机操作系统可以这样做：五个桌面。中间的显示现在路上的快递；左边的是京东淘宝买东西，右边的是看支付宝微信理财产品当天收益；向上划是微信，向下划是微博。欧了。 '
+            '\u200b(@有个梨UGlee)',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1196',
+ 'name': '一剑',
+ 'shijian': ' 2018-05-01 16:22'}
+2018-07-20 15:47:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-3>
+{'content': '看八卦说黄圣依上妈妈是超人，家里本来七百多平的房子，怕被网友骂炫富，临时买了个三百平的房子用来上节目。 '
+            '\u200b\u200b\u200b\u200b',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 2278',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-03-31 09:35'}
+2018-07-20 15:47:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.fanjian.net/duanzi-4> (referer: http://www.fanjian.net/duanzi-3)
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '张继科：“明天跟我回家见父母。”景甜：“啊……我好紧张的……”张继科：“没事，你就当演戏呗。”景甜：“那不就完犊子了吗？”',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1410',
+ 'name': '一剑',
+ 'shijian': ' 2018-03-28 11:07'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '经过和同学的一番研究，发现要想让一些外来称呼显得本土化，在名字里加个“大”字就行了。举点栗子。蜘蛛大侠、钢铁大侠、美国大队长、蚁大人、鹰大眼（。） '
+            '\u200b\u200b\u200b\u200b（@轻歌的小号）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1049',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-03-20 16:21'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '生姜？你能不能有点骨气，烧在红烧肉里你像块肉，烧在土豆里你像块土豆，黄焖鸡里像块鸡肉，你能不能像八角辣椒那样坚持自我！非得等我吃在嘴里吐了，大骂你一声：卧槽！一块姜！你才满意吗！你才有自己的存在感吗！ '
+            '\u200b\u200b\u200b\u200b（@二次元同人动漫）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1965',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-03-02 13:38'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '费啥劲整这么多节目啊，明年春晚就让周杰伦一个人表演得了。多中国梦啊，先刷一波以东风破菊花台发如雪青花瓷为首的中国风，再来娘子双刀双节棍这种嘻哈风格，完了再本草纲目弘扬中国文化，还能弹钢琴弹吉他吹笛子弹古筝，完了还给整个魔术。周杰伦唱累了就让他表演喝奶茶，猪年嘛，让他喝。 '
+            '（@猫撞）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1476',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-16 09:30'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '今年最后的两天，今天提醒你单身，明天提醒你又老一岁 \u200b\u200b\u200b\u200b（@费悟超人）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 896',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-14 11:15'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '愿你的仇人出走半生，归来仍是站票。',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1224',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-14 10:50'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '上次去KTV，一个朋友点了首歌，唱到一半他说：会唱的朋友，你们闭嘴。 \u200b\u200b\u200b\u200b（@柳三便）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1119',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-14 10:48'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '大部分屌丝的一生，只是把劣质父母的价值观重演一遍而已。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1383',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-12 11:11'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '广东女生邀请福建男朋友回家过年，一进门父母迎上来，就热情地说：爸妈！看我带什么好东西回来了！',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 2844',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-11 15:14'}
+2018-07-20 15:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-4>
+{'content': '张继科的好看，是一种保安帅，跟景甜的县花儿美，真的是配不行。有人幻想张继科，大概觉得他劲儿大吧。 \u200b(@王欠男)',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1270',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-08 16:41'}
+2018-07-20 15:47:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.fanjian.net/duanzi-5> (referer: http://www.fanjian.net/duanzi-4)
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '贾跃亭一直在紧紧跟随伊隆马斯克的步伐。马斯克造了特斯拉，老贾也去造电动车，连名字也学特斯拉以物理学家命名。马斯克娶了明星老婆投资拍电影，老贾也娶了明星老婆投资拍电影。马斯克的梦想是去火星，老贾的梦想也是去火星。在火星，马斯克可以开拓人类的未来，老贾可以躲债。',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 896',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-07 15:30'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '我今年18岁，开着奔驰c63，在北京三环 '
+            '深圳各有一套全款房，我没有靠父母，没有靠朋友，这些都是靠我一个人努力想象出来的。（@鸡汁小王子i）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1348',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-06 13:31'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '跟朋友在瑞士Leysin，他说这里只有一家中餐馆，中学时经常来吃。我坐下问了店主是香港人，于是点了虾饺。点完餐跟朋友说，在米兰吃的都是微波炉加热速冻的，现在终于可以吃到正宗的了，很不同的喔！说时迟那时快，后厨清脆的一声——“叮！”',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1075',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-05 15:24'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '输入密码→密码错误→输入密码→密码错误→输入密码→密码错误…忘记密码→验证身份→请键入新密码→请不要使用旧密码',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1188',
+ 'name': '一剑',
+ 'shijian': ' 2018-02-04 10:09'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '把放在工作学习上的心收一收，认真准备过年了 \u200b\u200b\u200b\u200b（@追风少年刘全有）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1031',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-02-01 17:01'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '就不是很懂，地铁排队等包过安检，排我后面的人非要冲到我前面去等包出来，请问你是哪来的自信你家包跟你一样傻屌会插队的？ '
+            '\u200b\u200b\u200b\u200b（@路西斯爆钓王的老母亲）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1172',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-01-26 14:07'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '@Mr蒋静：人过了35岁，无论现实如何，都应该从心底里接受平凡或者平庸，千万不要对比，这时个体之间的差异经过20余年的关键时期已经放大得很难逆转。平凡不丢人，自我才幸福 '
+            '\u200b//@饭统戴老板：接受平凡，是我们中年男人都要跨过的一道门槛，有人跨的早，有人跨的晚，不过基本都能跨过去；接受但不甘心平凡，是另外一道坎',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1600',
+ 'name': '一剑',
+ 'shijian': ' 2018-01-26 11:19'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '讲真，很多男生对约女孩子出来吃饭她主动买单或者要求AA有些误会，他们以为这姑娘替他省钱有美德。而事实上，女生这样做的时候表示：我不占你一分钱便宜，你可千万不要以为我对你有什么兴趣～～（@退休的水兵月）',
+ 'face': 'http://ww2.sinaimg.cn/large/8f40c578jw1f8fu3i4xi8j2050050dft.jpg',
+ 'liulan': ' 1222',
+ 'name': '咩咩羊',
+ 'shijian': ' 2018-01-19 11:37'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '发现一个社交定律，十倍速亲近你的人会在未来某个时刻十倍速离开你',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1584',
+ 'name': '一剑',
+ 'shijian': ' 2018-01-05 14:43'}
+2018-07-20 15:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.fanjian.net/duanzi-5>
+{'content': '和楼下餐厅老板聊养生，他问：知道你们这些长期不吃早餐的有什么影响吗？我说：不知道。他说：影响我们的生意。 \u200b',
+ 'face': 'http://ww4.sinaimg.cn/large/8f40c578jw1fazd1mrf0jj205k05kaa7.jpg',
+ 'liulan': ' 1075',
+ 'name': '一剑',
+ 'shijian': ' 2017-12-31 14:49'}
+2018-07-20 15:47:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-07-20 15:47:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1872,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 84053,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 7, 20, 7, 47, 23, 261000),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 56,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2018, 7, 20, 7, 47, 10, 174000)}
+2018-07-20 15:47:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-07-20 15:51:40 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: fanjianproject)
+2018-07-20 15:51:40 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'fanjianproject', 'DOWNLOAD_DELAY': 3, 'LOG_ENABLED': False, 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'fanjianproject.spiders', 'SPIDER_MODULES': ['fanjianproject.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'}
